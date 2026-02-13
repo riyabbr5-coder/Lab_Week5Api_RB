@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OAYlAohgHQA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Riya\\Desktop\\Lab_PlantsAPI_RB\\Plants.WebAPI\\Plants.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Riya\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\Riya\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
