@@ -63,3 +63,6 @@ jobs:
           app-name: LabWeek5Api
           slot-name: Production
           package: .
+
+
+
