@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Week5Api.Controller
+namespace Week5Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -10,7 +10,7 @@ namespace Week5Api.Controller
         [HttpGet]
         public IActionResult Get() 
         {
-            return Ok("Hello from your Azure API running .NET 9");
+            return Ok("Your API has been updated through CI and CD");
         }
     }
 }
