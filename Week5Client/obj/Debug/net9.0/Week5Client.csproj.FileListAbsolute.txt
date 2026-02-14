@@ -1,0 +1,15 @@
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\bin\Debug\net9.0\Week5Client.exe
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\bin\Debug\net9.0\Week5Client.deps.json
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\bin\Debug\net9.0\Week5Client.runtimeconfig.json
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\bin\Debug\net9.0\Week5Client.dll
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\bin\Debug\net9.0\Week5Client.pdb
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.AssemblyInfoInputs.cache
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.AssemblyInfo.cs
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.csproj.CoreCompileInputs.cache
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.sourcelink.json
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.dll
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\refint\Week5Client.dll
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.pdb
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\Week5Client.genruntimeconfig.cache
+C:\Users\Riya\Desktop\Lab_PlantsAPI_RB\Week5Api\Week5Client\obj\Debug\net9.0\ref\Week5Client.dll
