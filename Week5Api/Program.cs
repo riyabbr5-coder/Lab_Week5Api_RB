@@ -27,8 +27,6 @@ public class Program
             app.UseHttpsRedirection();
         }
 
-        app.MapGet("/", () => "Week5Api is running. Try /swagger or /hello");
-
         app.UseAuthorization();
 
         
