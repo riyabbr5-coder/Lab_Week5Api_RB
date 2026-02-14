@@ -1,4 +1,6 @@
-
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 namespace Week5Api;
 
 public class Program
@@ -18,9 +20,14 @@ public class Program
 
         app.UseSwagger();
         app.UseSwaggerUI();
-      
 
-        app.UseHttpsRedirection();
+
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseHttpsRedirection();
+        }
+
+        app.MapGet("/", () => "Week5Api is running. Try /swagger or /hello");
 
         app.UseAuthorization();
 
