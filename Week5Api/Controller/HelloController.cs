@@ -10,7 +10,8 @@ namespace Week5Api.Controllers
         [HttpGet]
         public IActionResult Get() 
         {
-            return Ok("Your API has been updated through CI and CD");
+            //return Ok("Your API has been updated through CI and CD");
+            return Ok("Hello from your Azure API running .NET 9");
         }
     }
 }
