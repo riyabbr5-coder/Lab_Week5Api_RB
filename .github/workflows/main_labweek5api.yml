@@ -24,10 +24,13 @@ jobs:
           dotnet-version: '9.x'
 
       - name: Build with dotnet
-        run: dotnet build Week5Api/Week5Api.csproj --configuration Release
+        run: dotnet build Week5Api.csproj --configuration Release
+        working-directory: Week5Api
 
       - name: dotnet publish
-        run: dotnet publish Week5Api/Week5Api.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp
+        run: dotnet publish Week5Api.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp
+        working-directory: Week5Api
+
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -62,3 +65,4 @@ jobs:
           app-name: 'LabWeek5Api'
           slot-name: 'Production'
           package: .
+
