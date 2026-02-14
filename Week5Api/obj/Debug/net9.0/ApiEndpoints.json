@@ -1,20 +1,12 @@
 [
   {
-    "ContainingType": "Week5Api.Program\u002B\u003C\u003Ec",
-    "Method": "\u003CMain\u003Eb__0_0",
-    "RelativePath": "hello",
+    "ContainingType": "Week5Api.Controller.HelloController",
+    "Method": "Get",
+    "RelativePath": "api/Hello",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   }
 ]

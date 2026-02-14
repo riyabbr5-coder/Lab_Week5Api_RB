@@ -5,21 +5,14 @@
     "version": "1.0"
   },
   "paths": {
-    "/hello": {
+    "/api/Hello": {
       "get": {
         "tags": [
-          "Week5Api"
+          "Hello"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -28,7 +21,7 @@
   "components": { },
   "tags": [
     {
-      "name": "Week5Api"
+      "name": "Hello"
     }
   ]
 }

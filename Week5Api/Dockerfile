@@ -1,29 +1,19 @@
-# ---------- Build Stage ----------
+# Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy solution file
-COPY *.sln ./
-
-# Copy project file and restore dependencies
-COPY Lab_Week5Api_RB/*.csproj Lab_Week5Api_RB/
+# Copy csproj and restore
+COPY *.csproj ./
 RUN dotnet restore
 
-# Copy everything else
+# Copy everything else and build
 COPY . ./
-WORKDIR /src/Lab_Week5Api_RB
-
-# Publish the app
 RUN dotnet publish -c Release -o /app/publish
 
-# ---------- Runtime Stage ----------
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+# Runtime stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+COPY --from=build /app/publish .
 
-# Render dynamic port support
-ENV ASPNETCORE_URLS=http://0.0.0.0:${PORT}
-ENV DOTNET_RUNNING_IN_CONTAINER=true
-
-COPY --from=build /app/publish ./
-
-ENTRYPOINT ["dotnet", "Lab_Week5Api_RB.dll"]
+EXPOSE 8080
+ENTRYPOINT ["dotnet", "Week5Api.dll"]
